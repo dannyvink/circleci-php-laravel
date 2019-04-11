@@ -5,3 +5,5 @@ RUN apt-get update && apt-get install -y \
     libsqlite3-dev
     
 RUN docker-php-ext-install zip bcmath
+
+CMD ["/bin/sh"]
